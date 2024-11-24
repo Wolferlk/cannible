@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Photolink } from '../data/imgs';
-import Scrolling from '../components/scrollimg';
+import Scrolling from '../components/Scrollimg';
 
 export default function FashionGallery() {
   const galleryRef = useRef(null);
