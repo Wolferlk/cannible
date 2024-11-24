@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="relative h-full flex items-center justify-center text-white">
         <div className="text-center space-y-8">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter">
-            CANNIBAL.CO
+            CANNIBAL
           </h1>
           <p className="text-xl md:text-2xl tracking-wide">
           Welcome to Cannibal Clothing – where bold meets unique.

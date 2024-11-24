@@ -14,13 +14,15 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-8">
             <Link to="/store" className="hover:text-gray-300 transition-colors">Store</Link>
             <Link to="/about" className="hover:text-gray-300 transition-colors">About</Link>
+            <Link to="/contact" className="hover:text-gray-300 transition-colors">Contact</Link>
+            <Link to="/admin" className="hover:text-gray-300 transition-colors">Admin</Link>
           </div>
 
           <div className="flex items-center space-x-4">
             <Link to="/cart" className="hover:text-gray-300 transition-colors">
               <ShoppingCart className="w-6 h-6" />
             </Link>
-            <Link to="/account" className="hover:text-gray-300 transition-colors">
+            <Link to="/admin" className="hover:text-gray-300 transition-colors">
               <User className="w-6 h-6" />
             </Link>
             <button className="md:hidden">
