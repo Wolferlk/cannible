@@ -23,7 +23,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Our Philosophy</h2>
           <p className="text-xl max-w-2xl mx-auto">
-            At Cannible.co, we believe in the power of minimalist design and superior quality.
+            At Cannibal.co, we believe in the power of minimalist design and superior quality.
             Every piece tells a story of urban culture and contemporary lifestyle.
           </p>
         </div>

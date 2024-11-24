@@ -12,7 +12,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://cdn.coverr.co/videos/coverr-fashion-show-in-black-and-white-2633/1080p.mp4"
+          src="https://videos.pexels.com/video-files/3753698/3753698-uhd_2560_1440_25fps.mp4"
           type="video/mp4"
         />
       </video>
@@ -22,10 +22,10 @@ export default function Hero() {
       <div className="relative h-full flex items-center justify-center text-white">
         <div className="text-center space-y-8">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter">
-            CANNIBLE.CO
+            CANNIBAL.CO
           </h1>
           <p className="text-xl md:text-2xl tracking-wide">
-            Redefining Urban Fashion
+          Welcome to Cannibal Clothing – where bold meets unique.
           </p>
           <Link
             to="/store"
