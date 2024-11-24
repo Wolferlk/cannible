@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Screens from '../components/Screenshot';
 
 export default function About() {
   return (
@@ -77,7 +78,9 @@ export default function About() {
             </div>
           </div>
         </div>
+        
       </div>
+      <Screens/>
     </div>
   );
 }

@@ -9,31 +9,32 @@ export interface Review {
   export const reviews: Review[] = [
     {
       id: 1,
-      name: "Sasindu Diluranga",
+      name: "Buwaneka Hasaranga",
       rating: 5,
-      text: "Amazing service! The clothing quality is outstanding and delivery was fast.",
+      text: "Quality, Comfortability, Branding, and everything are marvelous. Superb product.",
       avatar: "https://i.ibb.co/M7CTKHH/Whats-App-Image-2024-10-07-at-9-58-55-PM-removebg-preview.png",
     },
     {
       id: 2,
-      name: "Jane Smith",
-      rating: 4,
-      text: "Great design, but wish there were more size options available.",
+      name: "Mufarrath",
+      rating: 5,
+      text: "Got it.. It’s damn good.Hope I’ll do next purchase as soon as.",
       avatar: "https://randomuser.me/api/portraits/women/2.jpg",
     },
     {
       id: 3,
-      name: "Emily Williams",
+      name: "Malindu Ishan",
       rating: 5,
-      text: "I love the clothes, they fit perfectly and are super stylish.",
+      text: "superb product🔥 good material ⭐⭐⭐⭐⭐.",
       avatar: "https://randomuser.me/api/portraits/women/3.jpg",
     },
     {
       id: 4,
-      name: "Michael Brown",
+      name: "Dulshan Harshan",
       rating: 5,
-      text: "Fantastic experience from start to finish. Highly recommend!",
+      text: "T-shirt ekanam supiriyak aye kiyanna deyak na Supirima supiriyak",
       avatar: "https://randomuser.me/api/portraits/men/4.jpg",
     },
+
   ];
   

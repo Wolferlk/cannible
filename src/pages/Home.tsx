@@ -4,6 +4,7 @@ import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 import Scrolling from '../components/Scrollimg';
 import Reviews from '../components/Reviews';
+import Screens from '../components/Screenshot';
 
 export default function Home() {
   const featuredProducts = products.slice(0, 3);
@@ -25,6 +26,7 @@ export default function Home() {
       </section>
 
       <Reviews/>
+      
 
       
       <div class="g-post" data-href="https://plus.google.com/+myCompanyName/posts/C5mXxBfvuyQ"></div>
