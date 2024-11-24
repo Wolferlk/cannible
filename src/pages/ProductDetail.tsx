@@ -76,7 +76,7 @@ export default function ProductDetail() {
           
           <div>
             <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-            <p className="text-2xl font-semibold mb-6">${product.price}</p>
+            <p className="text-2xl font-semibold mb-6">LKR {product.price}</p>
             <p className="text-gray-600 mb-6">{product.description}</p>
             
             <div className="space-y-6">

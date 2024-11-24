@@ -20,7 +20,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         
         <div className="p-4">
           <h3 className="text-lg font-semibold text-gray-900">{product.name}</h3>
-          <p className="mt-1 text-gray-700">${product.price}</p>
+          <p className="mt-1 text-gray-700">LKR {product.price}</p>
           
           <div className="mt-2 flex gap-1">
             {product.colors.map((color) => (

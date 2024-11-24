@@ -18,7 +18,7 @@ export default function Store() {
 
   const sortedProducts = filteredProducts.sort((a, b) => b.id - a.id); 
 
-  const categories: Category[] = ['all', 'mens', 'womens', 'caps', 'bags', 'shoes'];
+  const categories: Category[] = ['all', 'mens', 'womens', 'caps', 'bags', 'shoes','unisex'];
 
   return (
     <div className="pt-16">
