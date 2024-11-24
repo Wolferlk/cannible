@@ -17,8 +17,8 @@ export default function Navbar() {
             <Link to="/fashiongallery" className="hover:text-gray-300 transition-colors">Gallery</Link>
             <Link to="/about" className="hover:text-gray-300 transition-colors">About</Link>
             <Link to="/contact" className="hover:text-gray-300 transition-colors">Contact</Link>
-            <Link to="/admin" className="hover:text-gray-300 transition-colors">Admin</Link>
-          </div>
+            
+          
 
           <div className="flex items-center space-x-4">
             <Link to="/cart" className="hover:text-gray-300 transition-colors">
@@ -30,6 +30,7 @@ export default function Navbar() {
             <button className="md:hidden">
               <Menu className="w-6 h-6" />
             </button>
+          </div>
           </div>
         </div>
       </div>

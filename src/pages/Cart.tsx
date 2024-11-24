@@ -6,12 +6,12 @@ import { products } from '../data/products';
 
 export default function Cart() {
   const { state, dispatch } = useCart();
-  
+
   const cartItems = state.items.map(item => {
     const product = products.find(p => p.id === item.productId);
     return { ...item, product };
   });
-  
+
   const total = cartItems.reduce((sum, item) => {
     return sum + (item.product?.price ?? 0) * item.quantity;
   }, 0);
@@ -20,7 +20,7 @@ export default function Cart() {
     <div className="pt-20 pb-8">
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="text-3xl font-bold mb-8">Shopping Cart</h1>
-        
+
         {cartItems.length === 0 ? (
           <div className="text-center py-12">
             <p className="text-gray-600 mb-4">Your cart is empty</p>
@@ -30,7 +30,6 @@ export default function Cart() {
             >
               Continue Shopping
             </Link>
-            
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -45,14 +44,13 @@ export default function Cart() {
                     alt={item.product?.name}
                     className="w-24 h-24 object-cover rounded"
                   />
-                  
                   <div className="flex-1">
                     <h3 className="font-semibold">{item.product?.name}</h3>
                     <p className="text-gray-600">
                       Size: {item.size} | Color: {item.color}
                     </p>
                     <p className="font-medium">LKR {item.product?.price}</p>
-                    
+
                     <div className="flex items-center gap-4 mt-2">
                       <div className="flex items-center gap-2">
                         <button
@@ -87,7 +85,7 @@ export default function Cart() {
                           <Plus className="w-4 h-4" />
                         </button>
                       </div>
-                      
+
                       <button
                         onClick={() =>
                           dispatch({
@@ -101,12 +99,10 @@ export default function Cart() {
                       </button>
                     </div>
                   </div>
-                  
                 </div>
-                
               ))}
             </div>
-            
+
             <div className="lg:col-span-1">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
@@ -133,20 +129,9 @@ export default function Cart() {
                   Proceed to Checkout
                 </Link>
               </div>
-              
             </div>
-
-            <div className="text-center py-12">
-          <Link to="/store"
-          className="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
-          Add Iteam
-        </Link>
-        </div>
-
-            
-
           </div>
-         )}
+        )}
       </div>
     </div>
   );
