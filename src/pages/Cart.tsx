@@ -30,6 +30,7 @@ export default function Cart() {
             >
               Continue Shopping
             </Link>
+            
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -100,7 +101,9 @@ export default function Cart() {
                       </button>
                     </div>
                   </div>
+                  
                 </div>
+                
               ))}
             </div>
             
@@ -130,9 +133,20 @@ export default function Cart() {
                   Proceed to Checkout
                 </Link>
               </div>
+              
             </div>
+
+            <div className="text-center py-12">
+          <Link to="/store"
+          className="inline-block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
+          Add Iteam
+        </Link>
+        </div>
+
+            
+
           </div>
-        )}
+         )}
       </div>
     </div>
   );

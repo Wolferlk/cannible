@@ -15,6 +15,9 @@ export default function Store() {
     return matchesSearch && matchesCategory;
   });
 
+
+  const sortedProducts = filteredProducts.sort((a, b) => b.id - a.id); 
+
   const categories: Category[] = ['all', 'mens', 'womens', 'caps', 'bags', 'shoes'];
 
   return (
@@ -50,7 +53,7 @@ export default function Store() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredProducts.map((product) => (
+          {sortedProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
